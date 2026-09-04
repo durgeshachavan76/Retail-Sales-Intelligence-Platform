@@ -1,0 +1,9 @@
+metric,value,label
+MAE,252696.96,"252,697"
+RMSE,274622.76,"274,623"
+MAPE,28.75,28.8%
+Forecast Accuracy,71.25,71.2%
+Historical Sales,13541712.78,13.54M
+Forecast Sales 6M,5379937.51,5.38M
+Growth vs Last 6M,-3.79,-3.8%
+Forecast Horizon,6.0,6 Months

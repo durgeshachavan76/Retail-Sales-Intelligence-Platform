@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Large Raw Datasets (See data/README.md for download instructions)
+olist_*.csv
+product_category_name_translation.csv
+powerbi_data/dim_customer.csv
+powerbi_data/dim_order_source.csv
+powerbi_data/dim_product.csv
+powerbi_data/dim_seller.csv
+powerbi_data/fact_order_items.csv
+powerbi_data/fact_payments.csv
+powerbi_data/customer_rfm.csv
+powerbi_data/dim_date.csv
+
+# Temporary / Testing PBIX files & extracted directories
+AnalyticsPro_*.pbix
+test_*.pbix
+pro1ana.pbix
+pro1ana1.pbix
+pro1ana_backup_safe.pbix
+pbix_extracted/
+*.tmp
+*.temp
+~$*.pbix
+
+# Root duplicate assets (official copies stored in powerbi/ and notebooks/)
+AnalyticsPro_Theme.json
+Untitled.ipynb
+powerbi_data/

@@ -1,0 +1,2 @@
+# Git LFS configuration for Power BI binary files
+*.pbix filter=lfs diff=lfs merge=lfs -text
